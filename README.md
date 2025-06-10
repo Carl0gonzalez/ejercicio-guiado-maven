@@ -11,6 +11,28 @@ Este proyecto permite añadir y mostrar tareas pendientes desde la línea de com
 - Empaquetar y ejecutar el proyecto.
 - Crear perfiles de configuración.
 
+## 🔁 Estructura del Proyecto
+
+```
+taskmaster/
+├── pom.xml
+├── README.md
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── equipo/
+│   │               └── taskmaster/
+│   │                   └── App.java
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── equipo/
+│                   └── taskmaster/
+│                       └── AppTest.java
+```
+
+
 ## 🛠 Comandos usados con Maven
 
 ```bash
@@ -75,26 +97,6 @@ mvn install
 </plugin>
 ```
 
-## 🔁 Estructura del Proyecto
-
-```
-taskmaster/
-├── pom.xml
-├── README.md
-├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── com/
-│   │           └── equipo/
-│   │               └── taskmaster/
-│   │                   └── App.java
-│   └── test/
-│       └── java/
-│           └── com/
-│               └── equipo/
-│                   └── taskmaster/
-│                       └── AppTest.java
-```
 
 ## 💡 Aprendizajes Técnicos
 
